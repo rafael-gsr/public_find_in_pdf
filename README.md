@@ -1,4 +1,2 @@
 # public_find_in_pdf
-public repository
-
-testing github
+My repository for a small project
