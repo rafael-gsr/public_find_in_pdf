@@ -96,8 +96,8 @@ case $whatYouWant in
         echo "GVlEy6rnvdVYxes7hCqJKgC8HZcJpCUgLPXHkntq4Qw=" > key.txt
         echo "" > palavras_a_procurar.txt
 
-        wget "https://raw.githubusercontent.com/nefelyn/public_find_in_pdf/main/encrypt.py.encrypted"
-        wget "https://raw.githubusercontent.com/nefelyn/public_find_in_pdf/main/pdf_reader.py.encrypted"
+        wget "https://raw.githubusercontent.com/rafael-gsr/public_find_in_pdf/main/encrypt.py"
+        wget "https://raw.githubusercontent.com/rafael-gsr/public_find_in_pdf/main/pdf_reader.py"
         cp -f "$initial_path/decrypt.py" "$PWD"
 
         python decrypt.py
